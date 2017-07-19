@@ -4,6 +4,16 @@ body {
   max-width: 95em;
 }
 
+header img {
+	display: flex;
+}
+
+header {
+	display: inline-flex;
+}
+
+
+
 
 a {
   text-decoration: none;

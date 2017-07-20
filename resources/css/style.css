@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  max-width: 95em;
+  max-width: 98em;
 }
 
 header {
@@ -8,20 +8,26 @@ header {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  width: 100%;
+  width: 95%;
   height: 120px;
   border-bottom: 1pt solid black;
+  background-color: white;
+
 }
 
 .container {
 	padding-top:125px;
+	width: 95%;
 }
 
 
 nav span {
 	padding: 20px;
+
+	color: black;
+	font-size: 20px;
 }
 
-a {
-  text-decoration: none;
+a:visited {
+	color: green;
 }

@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  max-width: 98em;
+  padding-left: 10px;
 }
 
 header {
@@ -16,18 +16,27 @@ header {
 }
 
 .container {
-	padding-top:125px;
+	padding-top:121px;
 	width: 95%;
 }
 
+header p {
+	color:rgb(10 209 158);
+	font-size: 18px;
+	font-weight:bold;
+	height:58px;
+    line-height:58px;
+    padding-left: 8px;
+}
 
 nav span {
 	padding: 20px;
-
+	font-weight: bold;
 	color: black;
 	font-size: 20px;
 }
 
+
 a:visited {
-	color: green;
+	color: black;
 }

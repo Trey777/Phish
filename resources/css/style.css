@@ -1,28 +1,27 @@
-
 body {
   margin: 0 auto;
   max-width: 95em;
 }
 
 header {
-  background-color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
   width: 100%;
-  height: 150px;
+  height: 120px;
   border-bottom: 1pt solid black;
-
 }
 
-nav {
-	display: flex;
-	justify-content: center;
+.container {
+	padding-top:125px;
 }
 
+
+nav span {
+	padding: 20px;
+}
 
 a {
   text-decoration: none;
 }
-
-

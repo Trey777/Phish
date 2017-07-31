@@ -1,4 +1,6 @@
-
+body {
+	margin: 0 8px;
+}
 
 header {
   display: flex;
@@ -40,22 +42,34 @@ nav span {
 	padding-right: 27px;
 }
 
-.container {
-	padding-top: 70px;
-}
 
 .image.phish {
+	display: flex;
+	align-items: center;
+	font-family: Georgia;
 	height: 300px;
 	background-image: url(../images/img-story-main.png);
-    font-size: 34px;
+    font-size: 40px;
     font-weight: bold;
     text-align: left;
     color: white;
 }
 
+.image.phish span {
+	padding-left: 20px;
+}
+
+h2 {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
 .container {
 	display: flex;
-	padding:0 40px;
+	padding:60px 40px;
+
 
 }
 .container.large {
@@ -81,7 +95,6 @@ nav span {
 
 	background-image: url(../images/img-story-2.png);
 	height: 300px;
-
 	background-repeat: no-repeat;
 
 }
@@ -93,21 +106,43 @@ nav span {
 	background-repeat: no-repeat;
 }
 
-.articleSeven .imageTitle {
+.articleSeven span {
 	background-image: url(../images/img-story-1.png);
 	height: 300px;
 	background-repeat: no-repeat;
 }
 
+.articleThree, .articleFive, .articleSeven .imageTitle span {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-left: 20px;
+	color: white;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+}
 
 .articles {
 	display: flex;
 	  justify-content: space-between;
-  margin-top: 17px;
+
 }
 
 .article {
 	  display: flex;
   flex-direction: column;
   width: 300px;
+}
+
+p {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
 }

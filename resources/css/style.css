@@ -1,85 +1,113 @@
-body {
 
-	margin: 0 10px;
-}
 
 header {
-	background-color: white;
-	position: fixed;
-	display: flex;
-	font-family: Verdana;
-	font-size: 14px;
-	font-weight: bold;
-	border-bottom: 1pt solid black;
-	width: 100%;
-}
-
-
-p {
-
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-
-h2 {
-  font-family: Georgia;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
   font-weight: bold;
-  font-size: 30px;
-  color: white;
+  border-bottom: 1pt solid black;
+  background-color: white;
+  width: 100%;
 }
 
-header > nav {
+.logo {
 	display: flex;
-	flex-direction: row;
-	padding-top: 20px;
+	align-items: center;
+	padding-left: 30px;
+	flex-grow: 11;
 }
 
-header > nav > span {
-	margin-right: 30px;
+header nav {
+	flex-grow: 1;
+
 }
 
-header {
-	display: flex;
-	justify-content: space-between;
-}
-
-.logo > h4 {
-	padding-left: 7px;
-	float: right;
+.logo span {
+	font-size: 16px;
 	color: mediumaquamarine;
+	padding-left: 10px;
 }
 
-.logo > img {
-	float: left;
-	clear:left;
+.logo img {
+	height: 70px;
 }
 
-div {
-	border: 1pt solid black;
+nav span {
+	font-size: 15px;
+	padding-right: 27px;
 }
 
 .container {
-	padding-top: 150px;
+	padding-top: 70px;
 }
 
-.container > .large {
-	width: 630px;
+.image.phish {
+	height: 300px;
+	background-image: url(../images/img-story-main.png);
+    font-size: 34px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
 }
 
-.container > .medium {
-	width: 300px;
-}
-
-.container > .small {
-	width: 240px;
-}
-
-.articleOne > .imageTitle > h2 {
-	font-size: 40px;
-	
-}
-.articleOne > .imageTitle {
+.container {
 	display: flex;
-	background-image: url("../images/img-story-main.png")
+	padding:0 40px;
+
+}
+.container.large {
+
+  width: 630px;
+  flex-direction: column;
+
+}
+
+.container.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container.small {
+  width: 240px;
+  display: flex;
+}
+
+
+.articleThree {
+
+	background-image: url(../images/img-story-2.png);
+	height: 300px;
+
+	background-repeat: no-repeat;
+
+}
+
+.articleFive {
+
+	background-image: url(../images/img-story-3.png);
+	height: 300px;
+	background-repeat: no-repeat;
+}
+
+.articleSeven .imageTitle {
+	background-image: url(../images/img-story-1.png);
+	height: 300px;
+	background-repeat: no-repeat;
+}
+
+
+.articles {
+	display: flex;
+	  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.article {
+	  display: flex;
+  flex-direction: column;
+  width: 300px;
 }

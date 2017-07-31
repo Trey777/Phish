@@ -86,6 +86,7 @@ h2 {
 }
 
 .container.small {
+
   width: 240px;
   display: flex;
 }
@@ -146,3 +147,24 @@ ul {
 	padding:0;
 	margin:0;
 }
+
+.articleEight h3 {
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+.container.small {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container.small li {
+	font-family: verdana;
+	background-color: whitesmoke;
+	border-bottom: 1pt solid black;
+	font-size: 14px;
+	color: dimgray;
+	padding: 11px 20px;
+}
+
